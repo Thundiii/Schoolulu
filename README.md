@@ -7,3 +7,5 @@ Hierbei wurde ein Team aus zwei Anwendungsentwicklern und zwei Systemintegratore
 
 Mitwirkend an diesem Projekt waren [CuzIamKeks](https://github.com/CuzIamKeks), [Robin1308](https://github.com/Robin1308) und [iNoga1902](https://github.com/iNoga1902).
 
+[Live Demo](https://thundiii.de/Schoolulu/)
+
