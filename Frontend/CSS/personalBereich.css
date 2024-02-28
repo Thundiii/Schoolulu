@@ -1,0 +1,39 @@
+.sidebar {
+  position: fixed;
+    top: 96px; /* Abstand vom oberen Rand des Viewports */
+    left: 0;
+    width: 15%;
+    height: calc(100vh - 96px); /* Die Höhe des Viewports minus 96 Pixel */
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+    margin-left: 15%;
+    padding: 20px;
+}
+
+body {
+    /* Chrome 10-25, Safari 5.1-6 /
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+    / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(0, 229, 255), rgb(255, 0, 153));
+    
+}

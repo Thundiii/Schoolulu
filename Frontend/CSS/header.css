@@ -1,0 +1,59 @@
+
+
+/* Header mit Navigation*/
+header {
+	background-color:black;
+	color: white;
+	padding: 10px;
+}
+
+.header-container { 	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+#LoginNav {
+  display:flex;
+  align-items: right;
+}
+
+#MainNav {
+  display:flex;
+  align-items: center;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+#Main {
+  display:flex;
+  align-items: center;
+}
+
+nav li {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+nav a:hover {
+	background-color: orange;
+}
+
+nav a i {
+	margin-right: 5px;
+}

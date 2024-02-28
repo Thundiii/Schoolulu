@@ -1,0 +1,69 @@
+body {
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  height: calc(100vh - 96px - 41px);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.school-info {
+   color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 18px;
+}
+
+.school-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.school-address {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.rating-container {
+    margin-bottom: 20px;
+}
+
+.rating-container h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.stars {
+    font-size: 24px;
+    color: #FFD700;
+    text-shadow: 1px 1px #888;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    margin-top: 35px;
+  }
+  
+  footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  }
